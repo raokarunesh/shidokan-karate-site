@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+#logo {
+  font-family: "Anton", sans-serif;
+}
+#title {
+  font-family: "Anton", sans-serif;
+}
