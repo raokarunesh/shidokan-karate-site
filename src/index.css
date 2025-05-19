@@ -9,3 +9,9 @@
 #title {
   font-family: "Anton", sans-serif;
 }
+#japanese-text {
+  /* font-family: "Zen Old Mincho", serif; */
+  font-family: "Kaisei Decol", serif;
+  /* font-family: "Zen Antique Soft", serif; */
+  /* font-family: "Rampart One", sans-serif; */
+}

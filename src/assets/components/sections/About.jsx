@@ -1,6 +1,7 @@
 import { useState } from "react";
 import InstructorCard from "../InstructorCard";
-import img1 from "/src/assets/img1.jpg";
+import img1 from "/src/assets/img1.png";
+import img2 from "/src/assets/img2.jpg";
 import { useSwipeable } from "react-swipeable";
 
 const About = () => {
@@ -12,7 +13,7 @@ const About = () => {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo",
     },
     {
-      image: img1,
+      image: img2,
       name: "Shihan Ram Chhetri",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo",
