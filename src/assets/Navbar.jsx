@@ -5,7 +5,7 @@ const Navbar = () => {
 
   return (
     <header role="navigation" className="sticky top-0 z-50">
-      <nav className="w-full h-16 flex transition-all justify-between bg-white/50  backdrop-blur items-center p-8 border-b border-b-gray-200">
+      <nav className="w-full h-16 flex transition-all justify-between bg-white backdrop-blur items-center p-8 border-b border-b-gray-400">
         <div>
           <a
             id="logo"
@@ -65,11 +65,11 @@ const Navbar = () => {
           </li>
         </ul>
         <ul
-          className={`absolute top-16 left-0 w-full bg-white backdrop-blur py-6  flex flex-col gap-4 items-center md:hidden z-50
+          className={`absolute top-16 left-0 w-full bg-white backdrop-blur-2xl  py-6  flex flex-col gap-4 items-center md:hidden z-50
     transition-all duration-300 ease-in-out ${
       isOpen
-        ? "opacity-100 translate-y-0 pointer-events-auto"
-        : "opacity-0 -translate-y-4 pointer-events-none"
+        ? "  opacity-100 translate-y-0 pointer-events-auto"
+        : " opacity-0 -translate-y-4 pointer-events-none"
     }`}
         >
           <li>

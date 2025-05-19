@@ -16,17 +16,18 @@ const Home = () => {
 
   return (
     <section
+      id="home"
       className="cursor-default min-h-screen w-full bg-cover bg-center transition-all duration-1000 ease-in-out border-b border-b-gray-200"
       style={{ backgroundImage: `url(${images[currentImage]})` }}
     >
       <div className="min-h-screen flex justify-center flex-col items-center">
         <h1
           id="title"
-          className="text-center text-4xl md:text-6xl lg:text-7xl transition-all duration-300 ease-in-out hover:text-[#4a3091]"
+          className="text-center text-4xl md:text-6xl lg:text-7xl text-white  transition-all duration-300 ease-in-out hover:text-[#4a3091]"
         >
           THE SHIDOKAN KARATE INDIA
         </h1>
-        <p className="flex justify-center items-center max-w-xl text-center pt-6 font-bold text-sm md:text-md lg:text-lg transition-all duration-300 ease-in-out hover:text-[#4a3091]">
+        <p className="flex text-white justify-center items-center max-w-xl text-center pt-6 font-bold text-sm md:text-md lg:text-lg transition-all duration-300 ease-in-out hover:text-[#4a3091]">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab,
           perferendis quod quos qui consequatur eveniet aspernatur, et optio
           accusamus id fuga rem.
@@ -37,14 +38,14 @@ const Home = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaFacebook className="text-black transition-all duration-300 ease-in-out hover:text-[#4a3091]" />
+            <FaFacebook className="text-white transition-all duration-300 ease-in-out hover:text-[#4a3091]" />
           </a>
           <a
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram className="text-black transition-all duration-300 ease-in-out hover:text-[#4a3091]" />
+            <FaInstagram className="text-white transition-all duration-300 ease-in-out hover:text-[#4a3091]" />
           </a>
         </div>
       </div>
