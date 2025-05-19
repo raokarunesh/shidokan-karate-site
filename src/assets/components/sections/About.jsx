@@ -1,32 +1,48 @@
 import { useState } from "react";
 import InstructorCard from "../InstructorCard";
 import img1 from "/src/assets/img1.png";
-import img2 from "/src/assets/img2.jpg";
+import img2 from "/src/assets/img2.png";
+import img3 from "/src/assets/img3.png";
+import img4 from "/src/assets/img4.png";
+import img5 from "/src/assets/img5.png";
+import img6 from "/src/assets/img6.png";
 import { useSwipeable } from "react-swipeable";
 
 const About = () => {
   const instructors = [
     {
       image: img1,
-      name: "Shihan Srinivas Rao",
-      details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo",
-    },
-    {
-      image: img2,
       name: "Shihan Ram Chhetri",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo",
     },
     {
-      image: img1,
+      image: img2,
+      name: "Sensei Arun Kumar Shahi",
+      details:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo",
+    },
+    {
+      image: img3,
       name: "Sensei Sameer Parashurami",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo",
     },
     {
-      image: img1,
-      name: "Shihan Hari Shankar Sharma",
+      image: img4,
+      name: "Shihan Binojkumar",
+      details:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo",
+    },
+    {
+      image: img5,
+      name: "Sensei Shiju PB",
+      details:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo",
+    },
+    {
+      image: img6,
+      name: "Sensei Indrajeet",
       details:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint doloremque animi exercitationem porro accusamus aspernatur? Eum ea iusto, dolorem illo",
     },
