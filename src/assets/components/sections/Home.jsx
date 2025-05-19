@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="cursor-default min-h-screen w-full bg-cover bg-center transition-all duration-1000 ease-in-out border-b border-b-gray-200"
+      className="select-none cursor-default min-h-screen w-full bg-cover bg-center transition-all duration-1000 ease-in-out border-b border-b-gray-200"
       style={{ backgroundImage: `url(${images[currentImage]})` }}
     >
       <div className="min-h-screen flex justify-center flex-col items-center">

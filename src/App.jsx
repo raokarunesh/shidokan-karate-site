@@ -5,7 +5,7 @@ import Navbar from "./assets/Navbar";
 
 function App() {
   return (
-    <div className="">
+    <div className="scroll-smooth">
       <Navbar />
       <Home />
       <About />

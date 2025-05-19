@@ -4,7 +4,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header role="navigation" className="sticky top-0 z-50">
+    <header role="navigation" className="select-none sticky top-0 z-50">
       <nav className="w-full h-16 flex transition-all justify-between bg-white backdrop-blur items-center p-8 border-b border-b-gray-400">
         <div>
           <a

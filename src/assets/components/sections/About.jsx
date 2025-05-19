@@ -61,9 +61,9 @@ const About = () => {
     <section
       {...handlers}
       id="aboutus"
-      className="min-h-screen bg-gradient-to-b from-white to-[#4a3091] px-4 py-6 md:py-16"
+      className="min-h-screen bg-gradient-to-b from-white to-[#4a3091] px-4 py-6 md:py-16 "
     >
-      <h1 className="text-4xl font-bold text-center text-[#4a3091] mb-6 md:mb-16">
+      <h1 className="text-4xl font-bold text-center text-[#4a3091] mb-6 md:mb-16 select-none">
         About Us
       </h1>
 
