@@ -79,7 +79,7 @@ const About = () => {
         About Us
       </h1>
 
-      <div className="relative max-w-7xl  mx-auto">
+      <div className="relative max-w-6xl  mx-auto">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           navigation={{

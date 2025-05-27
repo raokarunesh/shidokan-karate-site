@@ -2,9 +2,9 @@ const Locations = () => {
   return (
     <section
       id="locations"
-      className="min-h-[120vh] bg-gradient-to-t from-white to-[#4a3091] px-4 py-6 md:py-20"
+      className="min-h-[120vh]  bg-gradient-to-t from-white to-[#4a3091] px-4 py-6 md:py-16 relative"
     >
-      <h1 className="text-4xl font-bold text-center text-white mb-12 md:mb-20 select-none">
+      <h1 className="text-4xl font-bold text-center text-[#ffffff] mb-6 md:mb-16 select-none">
         Locations
       </h1>
 
@@ -24,7 +24,7 @@ const Locations = () => {
         </div>
 
         {/* Address */}
-        <div className="bg-white p-6 rounded-2xl shadow-xl h-[600px] flex">
+        <div className="bg-white p-6 rounded-2xl shadow-xl h-[600px] flex select-none">
           <div>
             <h2 className="text-2xl font-semibold mb-4">Address</h2>
             <p className="text-gray-700 leading-relaxed">
